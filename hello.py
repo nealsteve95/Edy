@@ -12,7 +12,7 @@ import json
 df = pd.read_csv('EdX.csv')
 
 # Preprocesar el texto
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
